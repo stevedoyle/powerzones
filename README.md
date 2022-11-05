@@ -19,7 +19,20 @@ let ftp: u32 = 200;
 let zones = calc_power_zones(ftp);
 ```
 
+## Tests
+
+```
+cargo test
+```
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
 ## License
 
-Rand is distributed under the terms of both the MIT license and the
-Apache License (Version 2.0).
+Powerzones is distributed under the terms of the MIT license.
