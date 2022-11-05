@@ -1,6 +1,6 @@
 # powerzones
 
-A utility library for calculating cycling power zones using [Hunter Allen's formula](https://www.hunterallenpowerblog.com/2015/05/power-training-zones-101.html).
+A utility library for calculating cycling power zones using [Hunter Allen's method](https://www.hunterallenpowerblog.com/2015/05/power-training-zones-101.html).
 
 
 ## Usage
