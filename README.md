@@ -12,7 +12,7 @@ Add this to your `Cargo.toml`:
 powerzones = "0.1.0"
 ```
 
-Example usage:
+## Example
 
 ```rust
 let ftp: u32 = 200;
