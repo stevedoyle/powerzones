@@ -18,6 +18,7 @@ pub struct Zone {
 /// # Example
 ///
 /// ```
+/// use powerzones::calc_power_zones;
 /// let ftp: u32 = 200;
 /// let zones = calc_power_zones(ftp);
 /// ```

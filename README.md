@@ -1,6 +1,6 @@
 # powerzones
 
-A utility library for calculating cycling power zones using [Hunter Allen's method](https://www.hunterallenpowerblog.com/2015/05/power-training-zones-101.html).
+A utility library and binary for calculating cycling power zones using [Hunter Allen's method](https://www.hunterallenpowerblog.com/2015/05/power-training-zones-101.html).
 
 
 ## Usage
@@ -9,7 +9,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-powerzones = "0.1.0"
+powerzones = "0.2.0"
 ```
 
 ## Example
@@ -17,6 +17,18 @@ powerzones = "0.1.0"
 ```rust
 let ftp: u32 = 200;
 let zones = calc_power_zones(ftp);
+```
+
+## Binary
+
+```
+cargo run 200
+```
+
+or
+
+```
+powerzones 200
 ```
 
 ## Tests

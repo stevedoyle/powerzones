@@ -2,7 +2,7 @@
 name = "powerzones"
 description = "A utility library for calculating cycling power zones using Hunter Allen's formula."
 repository = "https://github.com/stevedoyle/powerzones"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
@@ -12,3 +12,11 @@ keywords = ["powerzones", "cycling"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+name = "powerzones"
+path = "src/lib.rs"
+
+[[bin]]
+name = "powerzones"
+path = "src/bin.rs"
